@@ -148,7 +148,7 @@
           force_flash: false,
           image_format: 'jpeg',
           jpeg_quality: 100,
-          flip_horiz: true
+          flip_horiz: false
         });
         if(angular.isDefined(vm.config.flashNotDetectedText)) {
           Webcam.set('flashNotDetectedText', vm.config.flashNotDetectedText);
